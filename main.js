@@ -233,16 +233,16 @@ function fun(a) {
 ////////////////////返回值类型
 
 
-/*function fun(){
+function fun() {
     alert("函数要执行了~~~~");
 
 
-    for(let i=0 ; i<5 ; i++){
+    for (let i = 0; i < 5; i++) {
 
 
 
 
-        if(i == 2){
+        if (i == 2) {
             //使用break可以退出当前的循环
             //break;
 
@@ -264,25 +264,25 @@ function fun(a) {
 }
 
 
-fun();*/
+fun();
 
 
 /*
  * 返回值可以是任意的数据类型
  *     也可以是一个对象，也可以是一个函数
  */
-/* function fun2(){
+function fun2() {
 
 
-     //返回一个对象
-     return {name:"沙和尚"};
- }
+    //返回一个对象
+    return { name: "沙和尚" };
+}
 
 
- let a = fun2();
+let a = fun2();
 
 
- console.log("a = "+a);*/
+console.log("a = " + a);
 
 
 function fun5() {
